@@ -97,3 +97,29 @@ p {
   border-radius: 5 px;
   padding: 20px 15px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.5px;
+    margin: 25px;
+  }
+  h2 {
+    font-size: 32px;
+    margin: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .navigation-links {
+    margin: 20px;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 25px;
+  }
+  .responsive-img {
+    display:none;
+  }
+}
